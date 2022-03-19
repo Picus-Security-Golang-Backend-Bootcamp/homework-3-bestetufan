@@ -1,0 +1,101 @@
+Name;StockCode;ISBN;PageCount;Price;StockCount;AuthorName;AuthorSurname
+Gargantua and Pantagruel;396;ISBN-XUB90HSN;302;141;3;Xuesong;Ye
+Poems of Emily Dickinson;716614;ISBN-KMC14SUG;341;124;2;Qiang;Cai
+Faust;331772;ISBN-DMW31GLG;319;123;5;Yuquan;Chen
+Rebecca;7235 QO;ISBN-WUY10PKJ;253;68;1;Nidhi;Bhatla
+The Flowers of Evil;5265;ISBN-APE75UJO;316;88;3;Kiran;Jyoti
+Decameron;74794;ISBN-LJC58NYW;371;121;2;Argyro;Kampouraki
+Tess of the d'Urbervilles;44508;ISBN-GWJ02POI;293;133;3;Christophoros;Nikou
+Waiting for Godot;686723;ISBN-DJU08MDE;267;113;1;Roohallah;Alizadehsani
+Robinson Crusoe;41912;ISBN-NZF68NTK;381;100;4;Mohammad Javad;Hosseini
+Their Eyes Were Watching God;2204;ISBN-HCP24BHL;290;128;0;Abbas;Khosravi
+Tom Jones;346116;ISBN-BOI39LGU;339;64;4;Fahime;Khozeimeh
+King Lear;33254;ISBN-NMP46UBB;300;115;0;Mohamad;Roshanzamir
+A Clockwork Orange;17078;ISBN-VPD30HPD;325;89;0;Nizal;Sarrafzadegan
+The Master and Margarita;56593;ISBN-RKY88ACO;320;148;4;Saeid;Nahavandi
+Sons and Lovers;72727;ISBN-IPP21XPC;394;116;1;Manish;Motwani
+Fathers and Sons;223516;ISBN-OWP44SFT;344;131;3;Damini;Dey
+Oresteia;86225;ISBN-GKL43JGZ;356;134;2;Daniel S.;Berman
+Wide Sargasso Sea;50212;ISBN-VHM47NQO;260;146;4;Guido;Germano
+Bleak House;56854;ISBN-IUN85JYL;361;127;3;Stephan;Achenbach
+A Season in Hell;1798;ISBN-CJB02GGN;362;83;3;Daniele;Andreini
+Howards End;31323;ISBN-QVF82VNN;291;120;4;Matthew J.;Budoff
+Little Women;587362;ISBN-DEF72TQZ;283;109;0;Filippo;Cademartiri
+Fairy Tales and Stories;9865;ISBN-HTE22LBQ;346;52;2;Tracy Q.;Callister
+The Complete Stories of Flannery O'Connor;913778;ISBN-LON12KFT;286;90;2;Hyuk-Jae;Chang
+Rabbit Run;87773;ISBN-CRQ43QZQ;318;98;3;Kavitha;Chinnaiyan
+Lord Jim;13-76;ISBN-IMP58KRJ;366;110;1;Benjamin J.W.;Chow
+A Confederacy of Dunces;54648;ISBN-TGN86KHC;399;125;0;Ahmed Fawzi;Otoom
+Atonement;822476;ISBN-DIW78HMO;392;58;1;Emad E.;Abdallah
+White Teeth;88293;ISBN-LBY55BMN;289;98;1;Yousef;Kilani
+The Tale of Genji;86-382;ISBN-KUT75LVD;307;67;2;Ahmed;Kefaye
+The Golden Notebook;398393;ISBN-HUE17BQM;369;125;0;Mohammad;Ashour
+Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream;64844;ISBN-MML15YON;309;65;1;M. Cengiz;Clak
+Treasure Island;53-38;ISBN-QQZ72QQQ;360;78;4;Cemil;Colak
+All the King's Men;B5Y 5Z5;ISBN-FQB27BCJ;322;79;2;Hasan;Kocaturk
+The Man Without Qualities;6741 ZE;ISBN-ACB58SRE;309;128;1;Seref;Sagiroglu
+Doctor Faustus;391244;ISBN-WXI81JVR;320;94;5;Irfan;Barutcu
+The Count of Monte Cristo;74149;ISBN-THO74VWU;317;139;4;Quazi Abidur;Rahman
+Epic of Gilgamesh;41281;ISBN-JMS58VUB;335;104;3;Larisa G.;Tereshchenko
+Stories of Ernest Hemingway;30-704;ISBN-NUD54JDL;253;52;3;Matthew;Kongkatong
+Nostromo;4689;ISBN-YTI32MNF;388;144;3;Theodore;Abraham
+The Big Sleep;62614-36281;ISBN-YZG31VES;393;62;3;M. Roselle;Abraham
+The Tempest;17H 5H4;ISBN-XFZ82ZLI;261;86;1;Hagit;Shatkay
+Dangerous Liaison;80321-166;ISBN-SNC38GIV;293;73;3;Steven;Rosenberg
+All Quiet on the Western Front;350733;ISBN-AWG31HWK;384;65;5;Michael R.;Elashoff
+Love in the Time of Cholera;G1S 7J5;ISBN-ZNM65ZJH;349;128;1;Philip;Beineke
+Buddenbrooks;82274;ISBN-LVT57TXF;342;75;4;Susan E.;Daniels
+My Antonia;5339-0418;ISBN-NFI21EIV;302;105;4;James A.;Wingrove
+Blood Meridian;46537;ISBN-VEF85VKP;390;56;4;Whittemore G.;Tingley
+The Corrections;1144;ISBN-JJN18VJL;314;105;1;Philip T.;Sager
+The Call of the Wild;508656;ISBN-HKK15RMV;388;124;2;William E.;Kraus
+Tender Is the Night;55-56;ISBN-PJE73TMQ;400;65;3;L. Kristin;Newby
+The Wind in the Willows;273929;ISBN-IKA59LXG;382;147;0;Robert S.;Schwartz
+A Prayer for Owen Meany;11716;ISBN-RPG73XRH;366;139;2;Michael;Green
+One Flew Over the Cuckoo's Nest;46829;ISBN-NVQ38VUZ;338;87;3;Jonas;Bjork
+Rabbit Is Rich;29561;ISBN-CZD43BXZ;276;104;3;Jakob;Forberg
+Collected Poems of W. B. Yeats;78388;ISBN-EZL22XMI;340;71;1;Ulf;Ekelund
+The Brief Wondrous Life of Oscar Wao;411085;ISBN-WQW29CVX;349;55;3;Lars;Edenbrandt
+The Lion The Witch and the Wardrobe;7848;ISBN-XRF23XNI;250;120;4;Mattias;Ohlsson
+Oedipus at Colonus;46862;ISBN-JPV87XPJ;329;69;1;J. R.;Quinlan
+The Moviegoer;72-549;ISBN-DUF72MPR;353;142;3;Sri;Hartati
+Medea;50566;ISBN-MJX99SGR;350;149;3;Zhang-Wei;Chen
+Macbeth;5348;ISBN-TRP52TYY;275;126;2;Ying-Hua;Chen
+Pedro Paramo;323217;ISBN-ISW11WBP;352;146;3;Ju-Ying;Qian
+The Prime of Miss Jean Brodie;89323;ISBN-HKO83UMS;397;96;3;Jian-Ying;Ma
+A Tree Grows in Brooklyn;689718;ISBN-SZO91XVN;252;133;5;Jun-Bo;Ge
+Doctor Zhivago;9668 HO;ISBN-DQL84GEF;383;97;3;R.;Rajkumar
+The Ambassadors;3541;ISBN-ZDV15PKU;288;131;4;Anandakumar;K.
+The Remains of the Day;0334-7140;ISBN-KIY86XKU;259;69;4;Bharathi;A.
+Austerlitz;R5C 1C8;ISBN-JKO69VAH;292;119;0;V.;Mahesh
+Confessions of Zeno;154924;ISBN-IFH29TVL;326;60;3;A.;Kandaswamy
+Dracula;6293-2066;ISBN-VYT53LVU;399;140;4;C.;Vimal
+Women in Love;977774;ISBN-MOQ64OMP;395;56;2;B.;Sathish
+Of Mice and Men;53734;ISBN-WIC01MKH;256;62;1;Padmakumari K. N.;Anooj
+The Complete Sherlock Holmes;6314;ISBN-NCO84RCO;320;90;3;Reza;Arsanjani
+The Waves;917106;ISBN-DNN04BKH;300;104;1;Yuan;Xu
+Rabbit Redux;23748;ISBN-SCW22CYT;265;69;5;Vishal;Vahistha
+The Hound of the Baskervilles;3125 JK;ISBN-LWZ18OYP;366;102;4;Aryeh;Shalev
+The Leopard;113783;ISBN-BQI83IRN;358;136;2;Rine;Nakanishi
+A Room With a View;0413 QO;ISBN-LWB45DBI;320;101;5;Sean;Hayes
+The Sea The Sea;10258;ISBN-VLV86KED;318;124;2;Mathews;Fish
+Bonfire of the Vanities;40503;ISBN-CUM63VPT;254;60;2;Piotr J.;Slomka
+The House of the Spirits;385576;ISBN-VSF39GAO;330;132;1;Luxmi;Verma
+Twenty Thousand Leagues Under the Sea;73121;ISBN-UQF36DHW;336;116;4;Sangeet;Srivastava
+The Princess of Cleves;636772;ISBN-RZE18LEY;400;107;2;P. C.;Negi
+The Wind-Up Bird Chronicle;7402;ISBN-YSN19QKF;369;52;0;Yelin;Yang
+The Plague;924122;ISBN-GYG31VGG;324;147;3;Li;Chen
+The Strange Case of Dr. Jekyll and Mr. Hyde;O4N 2S5;ISBN-QOY66URR;390;109;1;Yeung;Yam
+The Pickwick Papers;23-662;ISBN-FJV37VGM;328;93;2;Mouaz;Al-Mallah
+The Stories of John Cheever;42867;ISBN-PGR12CVV;254;94;3;Indrajit;Mandal
+Fahrenheit 451;88859;ISBN-UBF70JOE;264;89;2;N.;Sairam
+The Hobbit;8638;ISBN-GEX13RXG;399;104;4;Adel;Lahsasna
+Jude the Obscure;Y8S 2X1;ISBN-EWQ15QSD;252;107;2;Raja Noor;Ainon
+Nineteen Nineteen;13-48;ISBN-OZV12AMZ;306;143;5;Roziati;Zainuddin
+The 42nd Parallel;26138;ISBN-QGO64VIG;343;84;4;Awang;Bulgiba
+The Big Money;A7A 9Y5;ISBN-GGC21WME;259;74;1;A.Q.;Ansari
+Independent People;8845;ISBN-JVN16WMN;368;69;1;Neeraj Kumar;Gupta
+The House of Mirth;21422;ISBN-YWT64PGW;264;110;1;Arijit;Ukil
+The World According to Garp;4455;ISBN-ZMK68VTL;393;149;4;Soma;Bandyoapdhyay
+The Republic;2823;ISBN-SHS90ZTX;337;81;4;Chetanya;Puri
+The Stand;775662;ISBN-DVE27IQV;308;63;3;Arpan;Pal
