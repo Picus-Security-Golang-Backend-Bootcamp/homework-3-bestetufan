@@ -1,12 +1,6 @@
 package book
 
 import (
-	"encoding/csv"
-	"fmt"
-	"os"
-	"strconv"
-
-	"github.com/bestetufan/bookstore/domain/author"
 	"gorm.io/gorm"
 )
 
@@ -71,9 +65,7 @@ func (r *BookRepository) FindBooksByQuery(query string) []Book {
 	return books
 }
 
-func (r *BookRepository) UpdateBookStock(book *Book) error {
-	// Update stock
-	book.StockCount -= 1
+func (r *BookRepository) UpdateBook(book *Book) error {
 	r.db.Save(&book)
 
 	return nil
@@ -89,36 +81,8 @@ func (r *BookRepository) Migration() {
 	r.db.AutoMigrate(&Book{})
 }
 
-func (r *BookRepository) InsertSampleData(filename string) {
-	f, err := os.Open(filename)
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-	defer f.Close()
-
-	reader := csv.NewReader(f)
-	reader.Comma = ';'
-	lines, err := reader.ReadAll()
-	if err != nil {
-		fmt.Println(err)
-		return
-	}
-
-	for _, line := range lines[1:] {
-		pageCount, _ := strconv.Atoi(line[3])
-		price, _ := strconv.ParseFloat(line[4], 2)
-		stockCount, _ := strconv.Atoi(line[5])
-
-		book := NewBook(
-			line[0],                             // Name
-			line[1],                             // StockCode
-			line[2],                             // ISBN
-			pageCount,                           // PageCount
-			price,                               // Price
-			stockCount,                          // StockCount
-			*author.NewAuthor(line[6], line[7]), // Author
-		)
+func (r *BookRepository) InsertSampleData(books []Book) {
+	for _, book := range books {
 		r.db.Where(Book{Name: book.Name}).FirstOrCreate(&book)
 	}
 }

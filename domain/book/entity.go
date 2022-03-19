@@ -1,6 +1,7 @@
 package book
 
 import (
+	"errors"
 	"fmt"
 
 	"github.com/bestetufan/bookstore/domain/author"
@@ -41,4 +42,19 @@ func (Book) TableName() string {
 func (b *Book) ToString() string {
 	return fmt.Sprintf("ID: %d => Name: %s, Author: %s, Pages: %d, Stock Count: %d, ISBN: %s, Stock Code: %s, CreatedAt : %s]",
 		b.ID, b.Name, b.Author.GetFullName(), b.PageCount, b.StockCount, b.ISBN, b.StockCode, b.CreatedAt.Format("2006-01-02 15:04:05"))
+}
+
+func (b *Book) BuyBook(count int) error {
+	// Check if count is greater than 0
+	if count <= 0 {
+		return errors.New("Transaction count must be greater than zero!")
+	}
+
+	// Check stock information
+	if b.StockCount < count {
+		return errors.New("Not enough stock!")
+	}
+
+	b.StockCount -= count
+	return nil
 }

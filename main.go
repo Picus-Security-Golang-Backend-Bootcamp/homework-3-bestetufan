@@ -22,10 +22,20 @@ func init() {
 	authorRepo = author.NewAuthorRepository(db)
 	bookRepo = book.NewBookRepository(db)
 
+	// Create database tables
 	authorRepo.Migration()
 	bookRepo.Migration()
 
-	bookRepo.InsertSampleData("book-data.csv")
+	// Read csv file and generate bookstore slice
+	// !! RUNS EVERYTIME, SHOULD COMMENT OUT AFTER FIRST TIME !!
+	books, err := helpers.ReadBookCSV("book-data.csv")
+	if err != nil {
+		fmt.Println("Unable to read csv data!")
+		return
+	}
+
+	// Feed csv data to db
+	bookRepo.InsertSampleData(books)
 }
 
 func listBooks() {
@@ -51,12 +61,6 @@ func searchBook(query string) {
 }
 
 func buyBook(bookId int, count int) {
-	// Check if count is greater than 0
-	if count <= 0 {
-		fmt.Println("Transaction count must be greater than zero!")
-		return
-	}
-
 	// Get book from repo by ID
 	book, err := bookRepo.GetBookById(bookId)
 	if err != nil {
@@ -64,14 +68,14 @@ func buyBook(bookId int, count int) {
 		return
 	}
 
-	// Check stock information
-	if book.StockCount < count {
-		fmt.Println("Not enough stock!")
+	err = book.BuyBook(count)
+	if err != nil {
+		fmt.Println(err)
 		return
 	}
 
 	// Perform buy
-	err = bookRepo.UpdateBookStock(book)
+	err = bookRepo.UpdateBook(book)
 	if err != nil {
 		fmt.Println(err)
 	} else {
